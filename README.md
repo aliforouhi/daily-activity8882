@@ -1,2 +1,9 @@
-# daily-activity8882
-from datetime import date8882
+# daily_update.py
+from datetime import datetime
+
+def main():
+    today = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    print(f"Hello GitHub! Today is {today}")
+
+if __name__ == "__main__":
+    main()
